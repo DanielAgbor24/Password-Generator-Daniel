@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    color: #D5D4D8;
+    background: #222222;
+    font-family: "Karla", serif;
+}
+
+#main {
+    width: 70%;
+    max-width: 600px;
+    background: #1F2937;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#password-title {
+    color: #ffffff;
+    
+}
+
+.green {
+    color: #4ADF86;
+}
+
+#generate-password {
+    border-bottom: 2px solid #2F3E53;
+    padding-bottom: 50px;
+    margin-bottom: 35px;
+}
+
+#password-length {
+    color: black;
+    text-shadow: 0 0 30px black;
+    width: 40px;
+    background: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+#password-length:hover {
+    box-shadow: 0 0 10px skyblue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+#message-error {
+    color: red;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-btn, #clear-btn {
+    background: darkcyan;
+    width: 200px;
+    padding: 9px 15px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-top: 40px
+}
+
+#clear-btn {
+    background: darkred;
+}
+
+#clear-btn:hover {
+    background: red;
+    box-shadow: 0 0 10px lightcoral;
+}
+
+#password-btn:hover {
+    background: #10B981;
+    box-shadow: 0 0 10px wheat;
+}
+
+#results {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#password-result1, #password-result2 {
+    background: #273549;
+    width: 200px;
+    border-radius: 5px;
+    height: 39px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #4ADF86;
+    text-align: center;
+    
+}
+
